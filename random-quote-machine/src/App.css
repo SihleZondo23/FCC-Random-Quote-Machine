@@ -1,5 +1,4 @@
 .background {
-  background-color: rgba(255, 255, 0, 0.459);
   margin: 0;
   display: flex;
   justify-content: center;
@@ -16,17 +15,16 @@
   justify-content: space-between;
   padding: 2rem;
   text-align: left;
-  background-color: #444;
+  background-color: white;
   border-radius: 8px;
-  box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.938);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.618);
 }
 
 .quote-content {
-  color: yellow;
   height: 220px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 10px;
 }
 
@@ -38,17 +36,16 @@ p {
   font-size: 1.125rem;
 }
 
-button, 
+button,
 a {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   width: fit-content;
   font-weight: 500;
-  background: rgba(255, 255, 0, 0.548);
+  background: #1a1a1a;
   cursor: pointer;
   font-family: inherit;
   color: white;
   font-size: 1em;
 }
-
